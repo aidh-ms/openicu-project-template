@@ -17,6 +17,9 @@ classifiers = [
     "Operating System :: OS Independent",
 ]
 requires-python = ">=3.14"
+dependencies = [
+    "open-icu>=0.0.1",
+]
 
 [project.urls]
 homepage = "https://github.com/aidh-ms/openicu-project-template"  # TODO
@@ -38,3 +41,4 @@ dev = [
 
 [tool.uv]
 exclude-newer = "P7D"
+exclude-newer-package = { open-icu = false }
