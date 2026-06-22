@@ -1,6 +1,6 @@
 {
 	"name": "Python 3.14 Project",
-	"service": "python",
+	"service": "openicu",
 	"remoteUser": "vscode",
 	"workspaceFolder": "/workspaces",
 	"dockerComposeFile": "docker-compose.yml",
@@ -18,11 +18,7 @@
 			"userUid": "1000",
 			"userGid": "1000",
 			"upgradePackages": "true"
-		},
-		"ghcr.io/devcontainers/features/docker-in-docker:2": {
-			"moby": false
-		},
-		"ghcr.io/devcontainers/features/github-cli:1": {}
+		}
 	},
 	"customizations": {
 		"vscode": {
@@ -32,7 +28,6 @@
 				"ms-toolsai.jupyter",
 				"ms-toolsai.datawrangler",
 				"ms-vsliveshare.vsliveshare",
-				"ms-azuretools.vscode-containers",
 				"GitHub.copilot-chat",
 				"GitHub.vscode-pull-request-github",
 				"github.vscode-github-actions",

@@ -1,13 +1,13 @@
 [project]
 name = "project_name"  # TODO
-description = "Template for python project"  # TODO
+description = "Template for openicu project"  # TODO
 version = "0.0.1"
 license = "MIT"  # TODO
 authors = [
-    { name = "Paul-B98", email = "115164840+Paul-B98@users.noreply.github.com" }  # TODO
+    { name = "Paul-B98" }  # TODO
 ]
 maintainers = [
-    { name = "Paul-B98", email = "115164840+Paul-B98@users.noreply.github.com" }  # TODO
+    { name = "Paul-B98" }  # TODO
 ]
 readme = "README.md"
 keywords = ["Python Lib"]  # TODO
@@ -19,11 +19,11 @@ classifiers = [
 requires-python = ">=3.14"
 
 [project.urls]
-homepage = "https://github.com/Paul-B98/python-project-template"  # TODO
-repository = "https://github.com/Paul-B98/python-project-template"  # TODO
-changelog = "https://github.com/Paul-B98/python-project-template/releases"  # TODO
-issues = "https://github.com/Paul-B98/python-project-template/issues"  # TODO
-documentation = "https://github.com/Paul-B98/python-project-template/wiki"  # TODO
+homepage = "https://github.com/aidh-ms/openicu-project-template"  # TODO
+repository = "https://github.com/aidh-ms/openicu-project-template"  # TODO
+changelog = "https://github.com/aidh-ms/openicu-project-template/releases"  # TODO
+issues = "https://github.com/aidh-ms/openicu-project-template/issues"  # TODO
+documentation = "https://github.com/aidh-ms/openicu-project-template/wiki"  # TODO
 
 [build-system]
 requires = ["hatchling"]
@@ -32,27 +32,9 @@ build-backend = "hatchling.build"
 [dependency-groups]
 dev = [
     "jupyterlab>=4.5.8",
-    "pytest>=9.1.0",
-    "pytest-cov>=7.1.0",
-    "pytest-github-actions-annotate-failures>=0.4.0",
-    "pytest-random-order>=1.2.0",
-    "pytest-recording>=0.13.4",
     "ruff>=0.15.17",
     "ty>=0.0.49",
 ]
 
 [tool.uv]
 exclude-newer = "P7D"
-
-[tool.pytest.ini_options]
-python_files = ["test_*.py", "*_test.py"]
-filterwarnings = ["ignore::DeprecationWarning"]
-pythonpath = ["src"]
-cache_dir = "/workspaces/.cache/pytest"
-addopts = [
-    "--cov",
-    "--cov-branch",
-    "--cov=src",
-    "--cov-report=xml",
-    "--import-mode=importlib",
-]

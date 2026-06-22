@@ -1,6 +1,6 @@
-# Python Python Template
+# OpenICU Project Template
 
-This is a template for creating Python projects. It includes a basic project structure, configuration files, and setup scripts to help you get started quickly.
+This is a template for creating OpenICU projects. It includes a basic project structure, configuration files, and setup scripts to help you get started quickly.
 
 ## Features
 
@@ -20,8 +20,8 @@ This is a template for creating Python projects. It includes a basic project str
 
 1. **Clone the repository:**
     ```sh
-    git clone https://github.com/Paul-B98/python-project-template.git
-    cd python-project-template
+    git clone https://github.com/aidh-ms/openicu-project-template
+    cd openicu-project-template
     ```
 
 2. **Open the project in Visual Studio Code:**
@@ -37,22 +37,6 @@ This is a template for creating Python projects. It includes a basic project str
 ## Documentation
 
 Some documentation description
-
-### Requirements and architecture documentation
-
-This project uses [arc42](https://docs.arc42.org/home/) to document the requirements and architecture:
-1. [Introduction and Goals](docs/arc/introduction.md)
-1. [Architecture Constraints](docs/arc/constraints.md)
-1. [Context and Scope](docs/arc/context.md)
-1. [Solution Strategy](docs/arc/strategy.md)
-1. [Building Block View](docs/arc/building_block.md)
-1. [Runtime View](docs/arc/runtime.md)
-1. [Deployment view](docs/arc/deployment.md)
-1. [Crosscutting Concepts](docs/arc/concepts.md)
-1. [Architecture Decisions](docs/arc/decisions.md)
-1. [Quality Requirements](docs/arc/quality.md)
-1. [Risks and Technical Debt](docs/arc/risks.md)
-1. [Glossary](docs/arc/glossary.md)
 
 ### Additional features
 
