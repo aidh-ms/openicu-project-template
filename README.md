@@ -7,10 +7,8 @@ This is a template for creating OpenICU projects. It includes a basic project st
 - 📁 Pre-configured with [uv](https://docs.astral.sh/uv/) for dependency management.
 - 🪛 Linting with [ruff](https://docs.astral.sh/ruff/).
 - 🔧 Type checking with [ty](https://docs.astral.sh/ty/).
-- 🧪 Testing with [pytest](https://docs.pytest.org/en/stable/).
 - 📝 [Pre-commit](https://pre-commit.com/) hooks for code quality.
 - 📦 Uses [dev container](https://containers.dev/) development setup.
-- 🔎 Easy documentation with [MkDocs](https://containers.dev/).
 - 🧰 Integrated with [GitHub](https://docs.github.com/en) Actions for CI/CD automation and other workflows.
 
 ## Getting Started
