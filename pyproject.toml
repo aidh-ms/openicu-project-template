@@ -36,7 +36,7 @@ build-backend = "hatchling.build"
 dev = [
     "jupyterlab>=4.6.2",
     "ruff>=0.15.22",
-    "ty>=0.0.61",
+    "ty>=0.0.62",
 ]
 
 [tool.uv]
