@@ -35,7 +35,7 @@ build-backend = "hatchling.build"
 [dependency-groups]
 dev = [
     "jupyterlab>=4.6.3",
-    "ruff>=0.16.6",
+    "ruff>=0.16.7",
     "ty>=0.0.80",
 ]
 
